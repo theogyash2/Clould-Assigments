@@ -1,0 +1,32 @@
+1. Sign in to AWS Console:
+	Go to the AWS Management Console and sign in with your AWS account credentials.
+
+2. Navigate to EC2 Dashboard:
+	Once logged in, navigate to the EC2 Dashboard. You can find it under the "Compute" section or by searching for 	"EC2" in the AWS services search bar.
+
+3. Launch Instance:
+	On the EC2 Dashboard, click on the "Launch Instance" button to start the instance creation process.
+
+4. Choose Name and Tag
+
+5. Choose an Amazon Machine Image (AMI):
+	We are using the Amazon Linux
+
+6. Choose an Instance Type:
+
+	Choose an Instance Type," select the instance type that suits your requirements (e.g., t2.micro, t3.small, etc.).
+	Click on the "Next: Configure Instance Details" button.
+
+7. Create Key Pair (Optional but Recommended): We are not using that so we will tick the checkbox proceed withour key pair. 
+
+8. Leave all option as they are and and proceed. 
+
+9. Review and Launch:
+
+	Review all the configuration details of your instance in If everything looks good, click on the "Launch" button.
+	Create Key Pair (Optional but Recommended):
+
+
+	View Instances:
+	Once the instance is launched, you can view it on the EC2 Dashboard under "Instances."
+	Wait for the instance status to change to "running" before accessing it.
