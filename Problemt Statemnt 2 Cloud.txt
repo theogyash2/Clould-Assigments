@@ -1,0 +1,11 @@
+1. Sign in to AWS Console:
+2. Navigate to DynamoDB Dashboard:
+3. In the DynamoDB Dashboard, click on the "Create table" button.
+Enter "BookDB" as the Table name.
+Specify "bookid" as the Partition key and "bookname" as the Sort key (since bookid is unique and bookname can have duplicates).
+Click on the "Create" button to create your table.
+4. Add Items to the Table:
+Once your "BookDB" table is created, you can add items to it.
+Click on the "Items" tab in your table's details page and then click on the "Create item" button.
+Enter the attribute values for each item, including "bookid," "bookname," and "author," and click on the "Save" button.
+5. You will be able to see the DB from the Dynamo DB dashboard.
